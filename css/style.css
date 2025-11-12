@@ -834,6 +834,63 @@ body.preloader-site {
   color: #333; /* ajusta según tu diseño */
   font-weight: 500;
   font-siz
+/* ---- Estilos generales (versión web) ---- */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* espacio entre enlaces */
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #b89d64; /* tono dorado elegante */
+}
+
+/* ---- Vista móvil ---- */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    padding: 8px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px 10px;
+  }
+}
+
+/* ---- Extra pequeño (celulares chicos) ---- */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    position: static;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.9);
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 4px 0;
+  }
+}
 
 
 }
