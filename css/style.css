@@ -775,5 +775,34 @@ body.preloader-site {
   .nama-lengkap {
     font-size: 1.8rem;
   }
+  /* Ajuste para que la portada no se vea tan larga en móvil */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 85vh; /* antes era 100vh, ahora un poco más corta */
+    padding: 50px 20px; /* reduce espacio interno */
+    background-position: center top; /* centra mejor la parte superior */
+  }
+
+  .hero-body {
+    padding: 0; /* evita que el texto empuje hacia abajo */
+  }
+
+  .hero .title {
+    margin-bottom: 0.5rem;
+  }
+
+  #hitungmundur {
+    margin-top: 1rem;
+  }
+}
+
+/* Ajuste extra para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .hero {
+    min-height: 75vh; /* aún más corto en celulares chicos */
+    background-position: center 10%;
+  }
+}
+
 }
 
