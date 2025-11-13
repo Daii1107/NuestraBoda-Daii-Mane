@@ -891,6 +891,61 @@ nav a:hover {
     margin: 4px 0;
   }
 }
+.hero-foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9); /* fondo blanco semi-transparente */
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-foot--wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.hero-menu-desktop {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-menu-desktop ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.hero-menu-desktop li {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-menu-desktop a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-menu-desktop a:hover,
+.hero-menu-desktop .is-active a {
+  color: #b19cd9; /* tono lila suave */
+}
+
+/* Ajuste móvil */
+@media (max-width: 768px) {
+  .hero-menu-desktop ul {
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+}
 
 
 }
