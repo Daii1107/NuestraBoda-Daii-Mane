@@ -38,8 +38,9 @@ html {
 
 
 .hero {
-
-  background: linear-gradient(rgb(18, 41, 84), rgb(173, 131, 60, 0.65)), rgba(18, 41, 84, 0.55) url("../image/bg1.png") no-repeat;
+  background-image: url(https://picsum.photos/id/25/1920/1080);
+ background: linear-gradient(rgb(173, 131, 60, 0.65), rgb(173, 131, 60, 0.65)), rgba(18, 41, 84, 0.65) url("../image/bg1.png") no-repeat;
+ /*background: linear-gradient(rgb(18, 41, 84), rgb(173, 131, 60, 0.65)), rgba(18, 41, 84, 0.55) url("../image/bg1.png") no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -110,9 +111,9 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: #ad833c;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  border-bottom: 2px solid #ad833c;
 }
 
 
@@ -126,13 +127,12 @@ html {
 
 .main-content {
   padding-top: 2rem;
-  color: #363636; 
+  color: #000; 
   font-family: 'Raleway', sans-serif;
 }
 
 .main-content .section-dark {
-
-   background-color: #eaeff3;
+  background-color: #eaeff3;
   padding: 80px 40px;
 }
 
@@ -310,7 +310,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #AD833C;
+color: #ad833c;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -407,7 +407,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #ad833c;
+  background-color: #996E6D;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -420,7 +420,7 @@ vertical-align: middle;
 }
 
 #toTop:hover {
-  background-color: #ad833c;
+  background-color: #BC8887;
 }
 
 ::-webkit-scrollbar {
@@ -429,7 +429,7 @@ vertical-align: middle;
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #24344d;
+box-shadow: inset 0 0 6px #24344d;
   -webkit-box-shadow: inset 0 0 6px #24344d;
   background-color: #122954;
 }
@@ -489,7 +489,7 @@ body.preloader-site {
 
 
 .btn-cta:hover {
-  background-color: #7793AB;
+background-color: #7793AB;
   width:  210px;
   height: 65px;
   color: white;
@@ -499,12 +499,10 @@ body.preloader-site {
   align-items: center;
   margin: 1rem;
   
-
 }
 
 .btn-cta {
- 
-  background-color: #122954;
+ background-color: #122954;
   font-size: 1.2rem;
   border-radius: 10px;
   color: white;
@@ -513,15 +511,6 @@ body.preloader-site {
   height: 65px;
   align-items: center;
   margin: 1rem;
-}
-
-
-.btn-cta:focus,
-.btn-cta:active {
-  background-color: #7793AB; /* mantiene el color dorado al hacer clic */
-  color: #fff;               /* evita que se oscurezca el texto */
-  box-shadow: 0 0 0 4px rgba(173, 131, 60, 0.4);
-  outline: none;             /* elimina el borde azul del enfoque */
 }
 
 .cashbac-logo-inline {
@@ -578,7 +567,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date1.jpg");
+  background-image: linear-gradient(rgba(18, 41, 84, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -587,7 +576,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date2.jpg");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -595,7 +584,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date3.jpg");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date3.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -603,7 +592,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date5.png");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date5.png");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -611,7 +600,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date6.png");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date6.png");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -620,28 +609,29 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date4.jpg");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
+
 .foto7 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/RS3.png");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/RS3.png");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 .foto8 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date8.png");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date8.png");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 .foto9 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/date9.jpg");
+  background-image: linear-gradient(rgba(18, 41, 84,0.5), rgba(48, 47, 47, 0.9)), url("../image/date9.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -686,6 +676,3 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
-
-}
-
