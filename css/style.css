@@ -682,8 +682,8 @@ background-color: #7793AB;
     background-image:
       linear-gradient(rgba(173, 131, 60, 0.65), rgba(173, 131, 60, 0.65)),
       url("../image/bg1.png");
-
-    background-size: contain !important;
+background-size: cover;
+   
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-attachment: scroll; /* evita bugs en móvil */
