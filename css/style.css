@@ -40,8 +40,11 @@ html {
   background-image: url(https://picsum.photos/id/25/1920/1080);
  background: linear-gradient(rgb(173, 131, 60, 0.65), rgb(173, 131, 60, 0.65)), rgba(18, 41, 84, 0.65) url("../image/bg1.png") no-repeat;
  /*background: linear-gradient(rgb(18, 41, 84), rgb(173, 131, 60, 0.65)), rgba(18, 41, 84, 0.55) url("../image/bg1.png") no-repeat;*/
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: scroll;
+  background-size: contain ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+ 
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Raleway', sans-serif;
